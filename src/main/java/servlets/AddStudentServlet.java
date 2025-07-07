@@ -7,12 +7,10 @@ import jakarta.servlet.http.*;
 
 import java.io.IOException;
 
-@WebServlet("/addStudent") // 👈 This maps to the form action
+@WebServlet("/addStudent") 
 public class AddStudentServlet extends HttpServlet {
     
-    /**
-	 * 
-	 */
+
 	private static final long serialVersionUID = 1L;
 
 	@Override
