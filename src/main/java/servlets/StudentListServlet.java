@@ -12,7 +12,7 @@ import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import models.Student;
 
-@WebServlet("/students") // 👈 this registers the servlet at /students
+@WebServlet("/students") 
 public class StudentListServlet extends HttpServlet {
     /**
 	 * 
